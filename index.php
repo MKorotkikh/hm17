@@ -13,27 +13,27 @@
 		protected $y1;
 
 		public function display() {
-			return "x1 = " . $this -> x1 . " y1 = " . $this -> y1;
+			return "x1 = " . $this->x1 . " y1 = " . $this->y1;
 		}
 
 		public function setX1($x) {
 			$x = (integer) $x;
-			$this -> x1 = $x;
-			return $this -> x1;
+			$this->x1 = $x;
+			return $this->x1;
 		}
 
 		public function setY1($y) {
 			$y = (integer) $y;
-			$this -> y1 = $y;
-			return $this -> y1;
+			$this->y1 = $y;
+			return $this->y1;
 		}
 
 		public function getX1(){
-			return $this -> x1;
+			return $this->x1;
 		}
 
 		public function getY1(){
-			return $this -> y1;
+			return $this->y1;
 		}
 	}
 
@@ -43,27 +43,27 @@
 
 		public function display() {
 			$coordinates = parent::display();
-			return $coordinates ."\n" . "x2 = " . $this -> x2 . " y2 = " . $this -> y2;
+			return $coordinates ."\n" . "x2 = " . $this->x2 . " y2 = " . $this->y2;
 		}
 
 		public function setX2($x) {
 			$x = (integer) $x;
-			$this -> x2 = $x;
-			return $this -> x2;
+			$this->x2 = $x;
+			return $this->x2;
 		}
 
 		public function setY2($y) {
 			$y = (integer) $y;
-			$this -> y2 = $y;
-			return $this -> y2;
+			$this->y2 = $y;
+			return $this->y2;
 		}
 
 		public function getX2(){
-			return $this -> x2;
+			return $this->x2;
 		}
 
 		public function getY2(){
-			return $this -> y2;
+			return $this->y2;
 		}
 	}
 
@@ -73,27 +73,27 @@
 
 		public function display() {
 			$coordinates = parent::display();
-			return $coordinates ."\n" . "x4 = " . $this -> x4 . " y4 = " . $this -> y4;
+			return $coordinates ."\n" . "x4 = " . $this->x4 . " y4 = " . $this->y4;
 		}
 
 		public function setX4($x) {
 			$x = (integer) $x;
-			$this -> x4 = $x;
-			return $this -> x4;
+			$this->x4 = $x;
+			return $this->x4;
 		}
 
 		public function setY4($y) {
 			$y = (integer) $y;
-			$this -> y4 = $y;
-			return $this -> y4;
+			$this->y4 = $y;
+			return $this->y4;
 		}
 
 		public function getX4(){
-			return $this -> x4;
+			return $this->x4;
 		}
 
 		public function getY4(){
-			return $this -> y4;
+			return $this->y4;
 		}
 	}
 
@@ -103,27 +103,27 @@
 
 		public function display() {
 			$coordinates = parent::display();
-			return $coordinates ."\n" . "x3 = " . $this -> x3 . " y3 = " . $this -> y3;
+			return $coordinates ."\n" . "x3 = " . $this->x3 . " y3 = " . $this->y3;
 		}
 
 		public function setX3($x) {
 			$x = (integer) $x;
-			$this -> x3 = $x;
-			return $this -> x3;
+			$this->x3 = $x;
+			return $this->x3;
 		}
 
 		public function setY3($y) {
 			$y = (integer) $y;
-			$this -> y3 = $y;
-			return $this -> y3;
+			$this->y3 = $y;
+			return $this->y3;
 		}
 
 		public function getX3(){
-			return $this -> x3;
+			return $this->x3;
 		}
 
 		public function getY3(){
-			return $this -> y3;
+			return $this->y3;
 		}
 	}
 	?>
